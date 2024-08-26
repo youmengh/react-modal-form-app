@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Modal } from "./components/Modal";
 import { QuestionForm } from "./components/QuestionForm";
 import { FormProvider } from "./context/FormContext";
+
 export const App: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
